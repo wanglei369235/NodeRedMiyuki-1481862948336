@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NodeRedMiyuki
+  host: NodeRedMiyuki
+  disk_quota: 1024M
+  services:
+  - aaa
+  env:
+    NODE_RED_USERNAME: admin
+    NODE_RED_PASSWORD: passw0rd
+    NODE_RED_STORAGE_NAME: aaa
